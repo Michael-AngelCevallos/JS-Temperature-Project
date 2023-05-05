@@ -14,5 +14,9 @@ let myAge = 29;
 /*Create a variable named earlyYears and save the value 2 to it. Note, the value saved to this variable will change.*/
 let earlyYears = 2;
 
+/* Use the multiplication assignment operator to multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears.*/
+earlyYears = earlyYears * 10.5;
+console.log(earlyYears);
+
 
 
