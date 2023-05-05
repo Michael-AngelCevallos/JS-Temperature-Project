@@ -11,12 +11,18 @@
 /* Create a variable named myAge, and set it equal to your age as a number. */
 let myAge = 29;
 
-/*Create a variable named earlyYears and save the value 2 to it. Note, the value saved to this variable will change.*/
+/* Create a variable named earlyYears and save the value 2 to it. Note, the value saved to this variable will change.*/
 let earlyYears = 2;
 
 /* Use the multiplication assignment operator to multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears.*/
 earlyYears = earlyYears * 10.5;
 console.log(earlyYears);
 
+/* Since we already accounted for the first two years, take the myAge variable, and subtract 2 from it.
+Set the result equal to a variable called laterYears. We’ll be changing this value later.*/
+earlyYears = earlyYears * 10.5;
+console.log(earlyYears);
 
+let laterYears = myAge - 2;
+console.log(laterYears);
 
