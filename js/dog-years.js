@@ -26,3 +26,6 @@ console.log(earlyYears);
 let laterYears = myAge - 2;
 console.log(laterYears);
 
+/* Multiply the laterYears variable by 4 to calculate the number of dog years accounted for by your later years. Use the multiplication assignment operator to multiply and assign in one step.*/
+let dogYears = laterYears * 4;
+console.log(dogYears);
