@@ -46,3 +46,10 @@ console.log(myName);
 
 let myName2 = "Michael-Angel";
 console.log(myName2.toLowerCase());
+
+/*Write a console.log statement that displays your name and age in dog years. Use string interpolation to display the value in the following sentence:
+
+My name is NAME. I am HUMAN AGE years old in human years which is DOG AGE years old in dog years.
+Replace NAME with myName, HUMAN AGE with myAge, and DOG AGE with myAgeInDogYears in the sentence above. */
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${dogYears} years old in dog years.`);
