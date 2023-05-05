@@ -33,3 +33,16 @@ console.log(dogYears);
 /* Add earlyYears and laterYears together, and store that in a variable named myAgeInDogYears.*/
 let myAgeInDogYears = earlyYears + laterYears;
 console.log(myAgeInDogYears);
+
+/*Let’s use a string method next.
+
+Write your name as a string, call its built-in method .toLowerCase(), and store the result in a variable called myName.
+
+The toLowerCase method returns a string with all lowercase letters. */
+let myName = "Michael-Angel".toLowerCase();
+console.log(myName);
+
+//OR   <---------
+
+let myName2 = "Michael-Angel";
+console.log(myName2.toLowerCase());
