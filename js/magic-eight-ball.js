@@ -15,7 +15,15 @@
 /* #3
 Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.*/
 
+/* #4
+Write a console.log() for the userQuestion, stating what was asked. You can include the user’s name in the console.log() statement, if you wish!
+*/
+
+
+
 let userName = '';
 let userQuestion = 'Magic Eight Ball?! What Does My Future Hold For Me?!';
+
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
+console.log(userQuestion);
