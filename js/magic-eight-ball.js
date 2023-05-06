@@ -12,18 +12,20 @@
 
 /* #2 Below this variable, create a ternary expression that decides what to do if the user enters a name or not. If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console. Otherwise, simply log Hello!.*/
 
-/* #3
-Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.*/
+/* #3 Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.*/
 
-/* #4
-Write a console.log() for the userQuestion, stating what was asked. You can include the user’s name in the console.log() statement, if you wish!
+/* #4 Write a console.log() for the userQuestion, stating what was asked. You can include the user’s name in the console.log() statement, if you wish!
 */
 
+/* #5 We need to generate a random number between 0 and 7.Create another variable, and name it randomNumber. Set it equal to this expression, which uses two methods (Math.floor() and Math.random()) from the Math library.*/
 
 
 let userName = '';
 let userQuestion = 'Magic Eight Ball?! What Does My Future Hold For Me?!';
+let randomNumber = Math.floor(Math.random()) * 8;
+
 
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 console.log(userQuestion);
+console.log(randomNumber);
