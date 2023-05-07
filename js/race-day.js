@@ -20,12 +20,25 @@ But we didn’t plan for runners that are exactly 18! We’ll handle that by the
 
 
 let raceNumber = Math.floor(Math.random() * 1000);
-let registEarly = true;
-let runnersAge = Math.floor(Math.random() * 45);
+let early = true;
+let age = 17;
 
-if(runnersAge < 18 && registEarly === true){
-    raceNumber = raceNumber + 1000;
+
+if(early && age > 18){
+    raceNumber += 1000;
+}
+
+if(early && age > 18){
+    console.log(`Race will begin at 9:30 and Your Race Number is: ${raceNumber}.`);
+}
+else if(!early  && age > 18){
+    console.log(`Race will begin at 11:00. And Your Race Number is: ${raceNumber}.`);
+}
+else if(age < 18){
+    console.log(`Race will begin at 12:30, your Race Number is : ${raceNumber}.`)
+}
+else {
+    console.log('Congratulations! Your Late and you didnt make it!')
 }
 
 
-console.log(' Your Race Number is: ' + raceNumber);
