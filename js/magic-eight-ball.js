@@ -20,16 +20,22 @@
 /* #5 We need to generate a random number between 0 and 7.Create another variable, and name it randomNumber. Set it equal to this expression, which uses two methods (Math.floor() and Math.random()) from the Math library.*/
 
 
-let userName = '';
+let userName = 'Michael';
 let userQuestion = 'Magic Eight Ball?! What Does My Future Hold For Me?!';
-let randomNumber = Math.floor(Math.random()) * 8;
+let randomNumber = Math.floor(Math.random() * 8) ;
+
 let eightBall = '';
 
-// userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+
+console.log(`${userName} has asked - ${userQuestion}`);
+
+console.log(randomNumber);
+
 
 
 if(randomNumber === 0){
-    console.log(eightBall);
+    console.log('It is certain');
 }else if(randomNumber === 1){
     console.log('It is decidedly so');
 } else if(randomNumber === 2){
@@ -48,7 +54,39 @@ if(randomNumber === 0){
     console.log('Go away');
 }
 
-// console.log(userQuestion);
-// console.log(randomNumber);
+console.log();
 
-console.log(eightBall);
+console.log("Switch Case Method <-------------");
+/** SWITCH CASE EXAMPLE */
+
+switch(randomNumber){
+    case 0 :
+        eightBall = 'It is certain';
+        break;
+    case 1 :
+        eightBall = 'It is decidedly No';
+        break;
+    case 2 :
+        eightBall = 'Reply hazy try again' ;
+        break;
+    case 3 :
+        eightBall = 'Cannot predict now';
+        break;
+    case 4 :
+        eightBall = 'Do not count on it';
+        break;
+    case 5 :
+        eightBall = 'My sources say no';
+        break;
+    case 6 :
+        eightBall = 'Outlook not so good';
+        break;
+    case 7 :
+        eightBall = 'Signs point to yes';
+        break;
+    case 8 :
+        eightBall = 'Go away';
+        break;
+}
+
+console.log(`The magic Eight-ball say\s ${eightBall}`);
