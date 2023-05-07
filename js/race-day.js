@@ -21,4 +21,11 @@ But we didn’t plan for runners that are exactly 18! We’ll handle that by the
 
 let raceNumber = Math.floor(Math.random() * 1000);
 let registEarly = true;
-let runnersAge = Math.floor(Math.random() * 50);
+let runnersAge = Math.floor(Math.random() * 45);
+
+if(runnersAge < 18 && registEarly === true){
+    raceNumber = raceNumber + 1000;
+}
+
+
+console.log(' Your Race Number is: ' + raceNumber);
