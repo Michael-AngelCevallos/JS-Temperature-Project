@@ -27,7 +27,7 @@ const logVisibleLightWaves = () => {
     if(region === 'The Arctic'){
         let lightWaves = 'Northern Lights';
         console.log(region);
-        // console.log(lightWaves)  // This will call to variable WITHIN  if Statement
+        console.log(lightWaves)  // This will call to variable WITHIN  if Statement
     }
 
     console.log(lightWaves); // This will call GLOBAL VARIABLE
