@@ -22,3 +22,16 @@ let groceryList = ['bread', 'tomatoes', 'milk'];
 
 groceryList[1] = 'avocados';
 console.log(groceryList);
+
+// Arrays with let and const ( Arrays with Const Cant be changed and arrays with let CAN be changed
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+
+condiments[0] = 'Mayo';
+console.log(condiments);
+
+utensils[3] = 'Spoon';
+console.log(utensils);
