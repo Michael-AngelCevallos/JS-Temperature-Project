@@ -15,3 +15,10 @@ let listItem = famousSayings[0];
 console.log(listItem);
 console.log(famousSayings[2]); // returns 'Where there is love there is life'
 console.log(famousSayings[3]); // returns undefined
+
+//Updating Elements
+
+let groceryList = ['bread', 'tomatoes', 'milk'];
+
+groceryList[1] = 'avocados';
+console.log(groceryList);
